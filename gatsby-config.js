@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Classic Recipes",
+    title: "Wai Recipes",
     shortTitle: "Recipes",
     description: "Classic recipes you’ll want to keep making.",
     url: "https://recipes-demo.marinda.me", // No trailing slash allowed!
