@@ -1,5 +1,5 @@
 import theme from "@marinda/gatsby-theme-recipes/src/gatsby-plugin-theme-ui";
-
+console.log(theme)
 export default {
   ...theme,
   colors: {
@@ -8,8 +8,12 @@ export default {
     modes: {
       dark: {
         ...theme.colors.modes.dark,
-        muted: "#472438"
+        primary: "#2b2828",
+        accent: "#423d3f",
+        muted: "#2f2f2f",
+        grey: "#363034",
+        background: "#1a1517",
       }
     }
-  }
+  } 
 };
