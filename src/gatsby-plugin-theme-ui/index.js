@@ -1,5 +1,5 @@
 import theme from "@marinda/gatsby-theme-recipes/src/gatsby-plugin-theme-ui";
-console.log(theme)
+
 export default {
   ...theme,
   colors: {
